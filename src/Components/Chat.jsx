@@ -11,9 +11,8 @@ const ChatComponent = () => {
     return (
         <>
             <>
-                <div className="   ">
-                    <div className="mx-40 bg-gra y-200 p- bg-slate-100 rounded-2xl mt-3 mb-8 shadow-2xl"> {/* Add mx-auto to center horizontally */}
-                        <div className="flex-1 p:2 sm:p-6 justify-between flex flex-col h-[92vh] container mx-auto">
+                    <div className="md:mx-40 lg:mx-40 mx-auto y-200 p- bg-slate-100 rounded-2xl mt-3 mb-8 shadow-2xl"> {/* Add mx-auto to center horizontally */}
+                        <div className="flex-1 p:2 sm:p-6 justify-between flex flex-col lg:h-[92vh] md:h-[92vh] h-[90vh] container mx-auto">
                             <div className="flex sm:items-center justify-between py-3 border-b-2 border-gray-200">
                                 <div className="relative flex items-center space-x-4">
                                     <div className="relative">
@@ -28,9 +27,9 @@ const ChatComponent = () => {
                                             className="w-10 sm:w-16 h-10 sm:h-16 rounded-full"
                                         />
                                     </div>
-                                    <div className="flex flex-col leading-tight">
+                                    <div className="flex flex-col  leading-tight">
                                         <div className="text-2xl mt-1 flex items-center">
-                                            <span className="text-gray-700 mr-3 font-semibold">Bank Alfalah</span>
+                                            <span className="text-gray-700 mr-3 font-semibold ">Bank Alfalah</span>
                                         </div>
                                         <span className="text-lg text-gray-600">Your Guider Bot</span>
                                     </div>
@@ -342,7 +341,6 @@ const ChatComponent = () => {
                             </div>
                         </div>
                     </div>
-                </div>
 
 
                 <style
